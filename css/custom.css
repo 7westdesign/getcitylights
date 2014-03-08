@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,600);
 @import url(http://fonts.googleapis.com/css?family=Prosto+One);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
 /* City Lights Logo  */
 #cllogo  {
@@ -190,7 +190,7 @@ margin-top:-10px;
 margin-left:0px;
  display:inline-block;
  color:#999;
-text-shadow: -2px 2px 1px #111;
+text-shadow: -2px 2px 1px #333;
 }
 
 #topline7{
@@ -478,8 +478,8 @@ margin-bottom:15px;
 
 
 .navbar-nav > li > a {
-padding-left:33px;
-padding-right:33px;
+padding-left:37px;
+padding-right:37px;
 color:#222;
 font-weight:normal;
 text-shadow:none;
