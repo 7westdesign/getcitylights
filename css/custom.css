@@ -1,0 +1,627 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,600);
+@import url(http://fonts.googleapis.com/css?family=Prosto+One);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+/* City Lights Logo  */
+#cllogo  {
+float:left;
+display:inline-block;
+padding-top:-2px;
+margin-top:-5px;
+margin-left:7px;
+width: 195px;
+height:145px;
+padding-bottom:0px;
+margin-bottom:-30px;
+}
+
+/* Top Navbar */
+.navbar-inverse {
+background:#1542bd;
+opacity:0.9;
+border: none;
+height:144px;
+opacity:0.9;	
+}
+
+/* White Mid Navbar */
+.navbar-default  {
+  background-color:#fff ;
+  border-color: #e7e7e7;
+  top:144px;
+}
+
+
+/* Style the links once they are Collapsed (.in!)*/
+.navbar-collapse.in {
+    overflow-y: visible;
+}
+
+#midnav.in {
+  overflow-y: visible;
+margin-left:0px;
+margin-top: 200px;
+padding-top:5px;
+
+}
+
+#midnav.in > ul.navbar-nav {
+margin-top: -205px;
+margin-left:-20px
+}
+
+#midnav > ul.navbar-nav > li > a {
+color:#333;
+}
+
+#midnav > ul.navbar-nav > li > a:hover {
+color:#fff;
+}
+
+#midnav.in > ul.navbar-nav > li > a {
+color:#333;
+}
+
+#midnav.in > ul.navbar-nav > li > a:hover {
+color:#fff;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #fff;
+}
+
+/* White Mid Navbar Li Hover Background Color*/
+.navbar-nav > li:hover {
+  text-decoration: none;
+  background-color: #939393;
+}
+
+/* White Mid Navbar a.active:hover link color*/
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+ color: #fff;
+}
+
+#midnav {
+margin-left:295px;
+max-height:53px;
+}
+
+
+#leftnav {
+float:left-bottom;
+margin-left:300px;
+margin-top:-70px;
+width:1000px;
+background:none;
+
+}
+/* Adspace   */
+#adspace {
+position:relative;
+float:left;
+margin-top:-54px;'
+margin-left:0px;
+background:none;
+height:52px;
+width:800px;
+}
+
+
+#headline33 {
+font-family: 'Prosto One', cursive;
+ font-size: 23px;
+ font-weight:800;
+ float:left;
+font-style:normal;
+margin-left:29px;
+ color:#fff;
+text-shadow: -2px 2px 3px #003176;
+}
+
+/* Angies List Logo Div */
+
+#logospace {
+position:relative;
+float:right;
+margin-top:-110px;
+margin-left:0px;
+width:145px;
+height:50px;
+background:none;
+}
+
+
+#phonespace {
+text-align:center;
+display:inline-block;
+float:left;
+margin-top:0px;
+margin-left:35px;
+margin-bottom:14px;
+background:none;
+height:25px;
+min-width:142px;
+}
+
+#showspace {
+display:inline-block;
+float:left;
+margin-top:0px;
+margin-left:21px;
+margin-bottom:0px;
+background:none;
+height:25px;
+min-width:20px;
+
+}
+
+#addressspace {
+display:inline-block;
+float:left;
+margin-top:0px;
+margin-left:28px;
+margin-bottom:-2px;
+background:none;
+height:25px;
+width:207px;
+}
+
+#fourthspace {
+display:inline-block;
+float:left;
+margin-top:0px;
+margin-left:21px;
+margin-bottom:15px;
+background:none;
+height:25px;
+width:138px;
+}
+
+
+#topline3{
+font-family: 'Prosto One', cursive;
+ font-size: 11px;
+ font-weight:bold;
+ float:top-left;
+margin-top:-10px;
+margin-left:0px;
+ display:inline-block;
+ color:#999;
+text-shadow: -2px 2px 1px #111;
+}
+
+#topline7{
+font-family: 'Prosto One', cursive;
+ font-size: 11px;
+ font-weight:bold;
+ float:top-left;
+margin-top:-10px;
+margin-left:0px;
+text-shadow: -2px 2px 2px #0c2771;
+ display:inline-block;
+ color:#fff;
+}
+
+#secondaddress {
+display:inline-block;
+float:left;
+margin-top:0px;
+margin-left:0px;
+background:black;
+height:25px;
+width:152px;
+}
+
+#topline2{
+font-family: 'Prosto One', cursive;
+ font-size: 11px;
+ font-weight:bold;
+ float:top-left;
+margin-top:-10px;
+margin-left:0px;
+ display:inline-block;
+text-shadow: -2px 2px 2px #0c2771;
+ color:#fff;
+}
+
+#topline {
+font-family: 'Prosto One', cursive;
+ font-size: 11px;
+ font-weight:bold;
+ float:top-left;
+margin-top:-10px;
+margin-left:0px;
+ display:inline-block;
+ color:yellow;
+text-shadow: -2px 2px 2px #0c2771;
+}
+
+#topline4{
+font-family: 'Prosto One', cursive;
+ font-size: 11px;
+ font-weight:bold;
+ float:top-left;
+margin-top:-10px;
+margin-left:0px;
+ display:inline-block;
+ color:yellow;
+}
+
+#headline24 {
+font-family: 'Prosto One', cursive;
+ font-size: 22px;
+ font-weight:700;
+margin-left:15px;
+ float:left;
+font-style:normal;
+ color:#fff;
+text-shadow: -2px 2px 3px #003176;
+}
+
+#headline44 {
+font-family: font-family: Tahoma, Geneva, sans-serif;
+margin-left:52px;
+margin-top:0px;
+font-size: 14px;
+font-weight:bold;
+float:left;
+
+display:inline;
+color:#fff;
+text-shadow: none;
+}
+
+
+#alogo3  {
+float:left;
+margin-top:0px;
+margin-left:0px;
+width: 55px;
+height:55px;
+padding-bottom:0px;
+}
+
+#angy {
+
+width:77px;
+height:77px;
+margin-top:0px;
+margin-left:10px;
+float:left;
+
+}
+
+
+/* Right call now header */
+
+#phoneid {
+font-size:15px;
+float:left;
+font-family: 'Open Sans', sans-serif;
+color:#6195b8;
+margin-left:80px;
+margin-top:-7px;
+}
+
+
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  background:#1542bd;
+  padding-top: 194px;
+  padding-bottom: 0px;
+}
+
+#reviewimg {
+margin-top:15px;
+margin-left:150px;
+margin-bottom:15px;
+-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+-moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+}
+
+/*! Put margin top -10px to three images group */
+#wide-display  {
+  margin-top:0px;
+background:#fff;
+min-width:100%;
+}
+
+.col-md-4  {
+
+position: relative;
+  min-height: 1px;
+padding:0px;
+
+}
+/*! First img Holder */
+
+#firstholder {
+display:inline-block;
+float:left;
+margin-top:1px;
+
+
+}
+#secondholder {
+float:left;
+display:inline-block;
+
+}
+
+#thirdholder {
+float:left;
+display:inline-block;
+
+}
+
+
+.item1 {
+width: 150px;
+margin:auto;
+z-index:10;
+}
+
+.homeitem {
+width: 100%;
+margin-top:  100px;
+float:left;
+}
+
+.homeitem2 {
+width: 100%;
+margin-top:  150px;
+position:relative;
+}
+
+.photoheading {
+z-index:100;
+color:#fff;
+position:absolute;
+float:left;
+font-family: 'Prosto One', cursive;
+font-size: 28px;
+font-weight:600;
+ text-shadow: 2px 2px 1px #00204d;
+           
+}
+ 
+#secondholder {
+float:left;
+display:inline-block;
+}
+
+#thirdholder {
+float:left;
+display:inline-block;
+}
+
+#leftangie {
+margin-left:-100px;
+margin-top:2px;
+float:right;
+}
+
+.slickfont1 {
+z-index:10;
+color:#fff;
+position:absolute;
+font-family: 'Prosto One', cursive;
+font-size: 33px;
+font-weight:600;
+margin-left:25px;
+text-shadow: 2px 2px 1px #00204d;
+top:105px;          
+}
+.slickfont2 {
+z-index:10;
+color:#fff;
+position:absolute;
+margin-left:16px;
+font-family: 'Prosto One', cursive;
+font-size: 33px;
+font-weight:600;
+text-shadow: 2px 2px 1px #00204d;
+top:38px;          
+}
+
+.slickfont {
+font-family: 'Open Sans', sans-serif;
+font-size: 38px;
+font-weight:300;
+z-index:100;
+color:#fff;
+position: absolute;
+}
+
+/*! Hover img links transparancy change to bright light */
+
+a.imglink{
+  background:         #fff;
+  display:            inline-block;
+width:100%;
+}
+
+a.imglink img {
+  transition:         opacity 0.8s;
+  -webkit-transition: opacity 0.8s;
+}
+
+a.imglink:hover img{
+  ofilter: alpha(opacity=60);
+    opacity: .6;
+}
+
+#electricone {
+
+}
+
+#electricoffice, #electrichome, #electricoffice2, #home3  {
+width:100%;
+height:366px;
+margin-bottom:15px;
+}
+
+#electrictwo {
+
+}
+
+#thirdelectric {
+
+}
+
+
+
+
+.navbar-nav > li > a {
+padding-left:33px;
+padding-right:33px;
+color:#222;
+font-weight:normal;
+text-shadow:none;
+font-family: 'Prosto One', cursive;
+font-size:17px;
+text-decoration: none; 
+}
+
+.navbar-default .navbar-nav > .active > a {
+  color: #3D3D3D; 
+}
+
+@media (max-width: 480px) { .col-ts-12 { float: none; width:100%; } }
+
+
+.firstheader {
+text-align:center;
+color:#fff;
+font-weight:bold;
+font-family: 'Prosto One', cursive;
+text-shadow: -2px 2px 3px #003176;
+font-size:24px;
+margin-bottom:20px;
+}
+
+#officepic, #homepic {
+margin-top:11px;
+}
+
+.officeheader {
+text-align:center;
+color:#fff;
+font-weight:bold;
+line-height:200%;
+font-family: 'Prosto One', cursive;
+font-size:27px;
+text-shadow: -2px 2px 3px #003176;
+}
+
+.officeheading {
+text-align:left;
+color:#fff;
+font-weight:bold;
+font-family: 'Prosto One', cursive;
+font-size:24px;
+text-shadow: -2px 2px 3px #003176;
+}
+
+.officemain {
+margin-top:10px;
+margin-bottom:50px;
+margin-left:0px;
+text-align:left;
+color:#fff;
+font-weight:bold;
+font-family: 'Prosto One', cursive;
+font-size:24px;
+text-shadow: -2px 2px 3px #003176;
+}
+
+#header_container {
+height:100px; position:fixed; width:1000px; top:0; margin: auto; display: block;
+}
+
+.introsummary {
+font-family: 'Prosto One', cursive;
+color:#fff;
+font-size:13px;
+text-align:justify;
+
+}
+
+/*! Bottom Marketing Content */
+#bottommarketing, #bottomreviews {
+width:100%;
+margin-top:-4px;
+background: #1542bd;
+
+}
+
+#bottomoffice, #bottomhome  {
+width:100%;
+margin-top:1px;
+background: #1542bd;
+opacity:0.9;
+}
+
+#reviewbottom {
+width:100%;
+margin-top:1px;
+background: #1542bd;
+opacity:0.9;
+margin-bottom:5px;
+}
+#officespace{
+margin-top:7px;
+}
+#officefront{
+margin-top:15px;
+}
+#officetop {
+margin-top:5px;
+margin-bottom:0px;
+}
+#sideoffice {
+margin-left:0px;
+margin-top:18px;
+}
+.officesummary {
+text-align:justify;
+margin-top:16px;
+text-indent:50px;
+font-family: 'Prosto One', cursive;
+color:#fff;
+font-size:14px;
+}
+
+#officeshow {
+margin-top:16px;
+}
+#pic3 {
+margin-bottom:30px;
+}
+.sidefont {
+font-family: 'Open Sans', sans-serif;
+font-size: 38px;
+font-weight:300;
+text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.4);
+}
+
+#footer {
+height:70px;
+
+}
+
+.footer1 {
+margin-top:18px;
+margin-bottom:10px;
+float:center;
+font-size:12px;
+font-weight:800;
+color:#fff;
+font-family: 'Open Sans', sans-serif;
+}
+
