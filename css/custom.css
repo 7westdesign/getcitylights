@@ -118,7 +118,7 @@ font-family: 'Prosto One', cursive;
 font-style:normal;
 margin-left:29px;
  color:#fff;
-text-shadow: -2px 2px 3px #003176;
+text-shadow: 0 0 0 transparent, -2px 2px 3px #003176;
 }
 
 /* Angies List Logo Div */
@@ -190,7 +190,7 @@ margin-top:-10px;
 margin-left:0px;
  display:inline-block;
  color:#999;
-text-shadow: -2px 2px 1px #333;
+text-shadow:0 0 0 transparent, -2px 2px 1px #333;
 }
 
 #topline7{
@@ -200,7 +200,7 @@ font-family: 'Prosto One', cursive;
  float:top-left;
 margin-top:-10px;
 margin-left:0px;
-text-shadow: -2px 2px 2px #0c2771;
+text-shadow: 0 0 0 transparent, -2px 2px 2px #0c2771;
  display:inline-block;
  color:#fff;
 }
@@ -223,7 +223,7 @@ font-family: 'Prosto One', cursive;
 margin-top:-10px;
 margin-left:0px;
  display:inline-block;
-text-shadow: -2px 2px 2px #0c2771;
+text-shadow:0 0 0 transparent, -2px 2px 2px #0c2771;
  color:#fff;
 }
 
@@ -236,7 +236,7 @@ margin-top:-10px;
 margin-left:0px;
  display:inline-block;
  color:yellow;
-text-shadow: -2px 2px 2px #0c2771;
+text-shadow: 0 0 0 transparent, -2px 2px 2px #0c2771;
 }
 
 #topline4{
@@ -258,7 +258,7 @@ margin-left:15px;
  float:left;
 font-style:normal;
  color:#fff;
-text-shadow: -2px 2px 3px #003176;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 }
 
 #headline44 {
@@ -386,7 +386,7 @@ float:left;
 font-family: 'Prosto One', cursive;
 font-size: 28px;
 font-weight:600;
- text-shadow: 2px 2px 1px #00204d;
+ text-shadow:0 0 0 transparent, 2px 2px 1px #00204d;
            
 }
  
@@ -414,7 +414,7 @@ font-family: 'Prosto One', cursive;
 font-size: 33px;
 font-weight:600;
 margin-left:25px;
-text-shadow: 2px 2px 1px #00204d;
+text-shadow:0 0 0 transparent, 2px 2px 1px #00204d;
 top:105px;          
 }
 .slickfont2 {
@@ -425,7 +425,7 @@ margin-left:16px;
 font-family: 'Prosto One', cursive;
 font-size: 33px;
 font-weight:600;
-text-shadow: 2px 2px 1px #00204d;
+text-shadow:0 0 0 transparent, 2px 2px 1px #00204d;
 top:38px;          
 }
 
@@ -500,7 +500,7 @@ text-align:center;
 color:#fff;
 font-weight:bold;
 font-family: 'Prosto One', cursive;
-text-shadow: -2px 2px 3px #003176;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 font-size:24px;
 margin-bottom:20px;
 }
@@ -516,7 +516,7 @@ font-weight:bold;
 line-height:200%;
 font-family: 'Prosto One', cursive;
 font-size:27px;
-text-shadow: -2px 2px 3px #003176;
+text-shadow: 0 0 0 transparent, -2px 2px 3px #003176;
 }
 
 .officeheading {
@@ -525,7 +525,7 @@ color:#fff;
 font-weight:bold;
 font-family: 'Prosto One', cursive;
 font-size:24px;
-text-shadow: -2px 2px 3px #003176;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 }
 
 .officemain {
@@ -537,7 +537,7 @@ color:#fff;
 font-weight:bold;
 font-family: 'Prosto One', cursive;
 font-size:24px;
-text-shadow: -2px 2px 3px #003176;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 }
 
 #header_container {
@@ -607,7 +607,7 @@ margin-bottom:30px;
 font-family: 'Open Sans', sans-serif;
 font-size: 38px;
 font-weight:300;
-text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.4);
+text-shadow:0 0 0 transparent, 1px 1px 0px rgba(255, 255, 255, 0.4);
 }
 
 #footer {
