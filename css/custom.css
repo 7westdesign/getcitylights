@@ -3,6 +3,26 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
+
+.welcometop {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  top: 0;
+}
+
+@media (min-width: 768px) {
+  .welcometop {
+    border-radius: 0;
+  }
+}
+
+
+.container-fluid {
+background:#fff;
+}
+
 /* City Lights Logo  */
 #cllogo  {
 float:left;
@@ -17,7 +37,7 @@ margin-bottom:-30px;
 }
 
 /* Top Navbar */
-.navbar-inverse {
+.welcometop {
 background:#1542bd;
 opacity:0.9;
 border: none;
