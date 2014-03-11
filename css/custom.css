@@ -5,16 +5,23 @@
 
 
 .welcometop {
-  position: fixed;
+  
   right: 0;
   left: 0;
-  z-index: 1030;
   top: 0;
   background:#1542bd;
   opacity:0.9;
-  height:144px;
+  min-height:144px;
+max-height:auto;
  	
 }
+
+
+.navbar-static-top  {
+top: auto;
+margin-bottom:0px;
+}
+
 
 
 @media (min-width: 768px) {
@@ -46,7 +53,7 @@ padding-bottom:0px;
 .navbar-default  {
   background-color:#fff ;
   border-color: #e7e7e7;
-  top:144px;
+  top:auto;
 }
 
 
@@ -331,9 +338,8 @@ margin-top:-7px;
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  background:#1542bd;
-  padding-top: 194px;
-  padding-bottom: 0px;
+  background:orange;
+  
 }
 
 #reviewimg {
@@ -347,7 +353,7 @@ box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
 
 /*! Put margin top -10px to three images group */
 #wide-display  {
-  margin-top:0px;
+  
 background:#fff;
 min-width:100%;
 }
