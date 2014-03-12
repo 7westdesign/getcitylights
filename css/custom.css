@@ -8,9 +8,10 @@
   right: 0;
   left: 0;
   top: 0;
-  background:#1542bd;
-  opacity:0.9;
-  min-height:144px;
+  background:url(/images/slide2.JPG);
+background-size: cover;
+background-repeat:no-repeat;
+  min-height:162px;
 max-height:auto;
  	
 }
@@ -142,7 +143,9 @@ font-family: 'Prosto One', cursive;
  float:left;
 font-style:normal;
 text-align:center;
-margin-left:0px;
+margin-left:15px;
+margin-top:0px;
+margin-bottom:20px;
  color:#fff;
 text-shadow: 0 0 0 transparent, -2px 2px 3px #003176;
 }
@@ -152,8 +155,9 @@ text-shadow: 0 0 0 transparent, -2px 2px 3px #003176;
 #logospace {
 position:relative;
 float:right;
-margin-top:-110px;
-margin-left:0px;
+margin-top:0px;
+left:25px;
+margin-bottom:35px;
 width:145px;
 height:50px;
 background:none;
@@ -209,16 +213,19 @@ width:138px;
 }
 
 
+
 #topline3{
 font-family: 'Prosto One', cursive;
  font-size: 11px;
  font-weight:bold;
  float:top-left;
 margin-top:0px;
-margin-left:0px;
+margin-bottom:20px;
+margin-left:35px;
+text-align:left;
  display:inline-block;
- color:#999;
-text-shadow:0 0 0 transparent, -2px 2px 1px #333;
+ color:#fff;
+text-shadow: 0 0 0 transparent, -2px 2px 1px #000;
 }
 
 #topline7{
@@ -226,8 +233,9 @@ font-family: 'Prosto One', cursive;
  font-size: 11px;
  font-weight:bold;
  float:top-left;
-margin-top:-10px;
-margin-left:0px;
+margin-top:0px;
+margin-left:35px;
+margin-bottom:8px;
 text-shadow: 0 0 0 transparent, -2px 2px 2px #0c2771;
  display:inline-block;
  color:#fff;
@@ -261,7 +269,9 @@ font-family: 'Prosto One', cursive;
  font-weight:bold;
  float:top-left;
 margin-top:0px;
-margin-left:0px;
+margin-left:35px;
+margin-bottom:2px;
+text-align:center;
  display:inline-block;
  color:yellow;
 text-shadow: 0 0 0 transparent, -2px 2px 2px #0c2771;
@@ -286,6 +296,8 @@ margin-left:15px;
  float:left;
 font-style:normal;
 text-align:center;
+margin-top:0px;
+margin-bottom:11px;
  color:#fff;
 text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 }
@@ -303,8 +315,15 @@ color:#fff;
 text-shadow: none;
 }
 
+#right {
+float:right;
+margin-bottom:5px;
+width:145px;
+height:50px;
+}
 
 #alogo3  {
+position:relative;
 float:left;
 margin-top:0px;
 margin-left:0px;
@@ -314,11 +333,11 @@ padding-bottom:0px;
 }
 
 #angy {
-
+position:relative;
 width:77px;
 height:77px;
 margin-top:0px;
-margin-left:10px;
+margin-left:5px;
 float:left;
 
 }
@@ -480,8 +499,8 @@ a.imglink img {
 }
 
 a.imglink:hover img{
-  ofilter: alpha(opacity=60);
-    opacity: .6;
+  ofilter: alpha(opacity=50);
+    opacity: .5;
 }
 
 #electricone {
