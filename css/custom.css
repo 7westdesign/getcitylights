@@ -1,7 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,600);
-@import url(http://fonts.googleapis.com/css?family=Prosto+One);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Passion+One:700);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,900);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
+@import url(http://fonts.googleapis.com/css?family=Prosto+One);
+
+@import url(http://fonts.googleapis.com/css?family=Bowlby+One+SC);
 
 
 .welcometop {
@@ -13,6 +17,8 @@ background-size: cover;
 background-repeat:no-repeat;
   min-height:195px;
 max-height:auto;
+
+width:100%;
  	
 }
 
@@ -137,17 +143,17 @@ width:800px;
 
 
 #headline33 {
-font-family: 'Prosto One', cursive;
- font-size: 23px;
- font-weight:800;
+font-family: 'Bowlby One SC', cursive;
+ font-size: 28px;
+ font-weight:lighter;
  float:left;
 font-style:normal;
 text-align:center;
-margin-left:15px;
+margin-left:9px;
 margin-top:0px;
 margin-bottom:35px;
  color:#fff;
-text-shadow: 0 0 0 transparent, -2px 2px 3px #003176;
+text-shadow: 0 0 0 transparent, -2px 2px 2px #000;
 }
 
 /* Angies List Logo Div */
@@ -216,28 +222,29 @@ width:138px;
 
 
 #topline3{
-font-family: 'Prosto One', cursive;
+font-family: 'Bowlby One SC', cursive;
  font-size: 11px;
- font-weight:bold;
+ font-weight:lighter;
  float:left;
-margin-top:3px;
+margin-top:6px;
 margin-bottom:30px;
 margin-left:35px;
 text-align:left;
  display:inline-block;
  color:#fff;
-text-shadow: 0 0 0 transparent, -2px 2px 2px #0c2771;
+text-shadow: 0 0 0 transparent, -1px 1px 1px #000;
 }
 
 #topline7{
-font-family: 'Prosto One', cursive;
+font-family: 'Bowlby One SC', cursive;
  font-size: 11px;
- font-weight:bold;
+ font-weight:lighter;
+ font-size: 11px;
  float:left;
-margin-top:3px;
+margin-top:6px;
 margin-left:35px;
 margin-bottom:7px;
-text-shadow: 0 0 0 transparent, -2px 2px 2px #0c2771;
+text-shadow: 0 0 0 transparent, -1px 1px 1px #000;
  display:inline-block;
  color:#fff;
 }
@@ -265,17 +272,18 @@ text-shadow:0 0 0 transparent, -2px 2px 2px #0c2771;
 }
 
 #topline {
-font-family: 'Prosto One', cursive;
+font-family: 'Bowlby One SC', cursive;
  font-size: 11px;
- font-weight:bold;
+ font-weight:lighter;
  float:left;
-margin-top:3px;
+margin-top:6px;
 margin-left:35px;
 margin-bottom:7px;
 text-align:center;
  display:inline-block;
- color:yellow;
-text-shadow: 0 0 0 transparent, -2px 2px 2px #0c2771;
+ color:#FFCC11;
+text-shadow:0 0 0 transparent, -1px 1px 1px #222;
+
 }
 
 #topline4{
@@ -290,9 +298,9 @@ margin-left:0px;
 }
 
 #headline24 {
-font-family: 'Prosto One', cursive;
- font-size: 22px;
- font-weight:700;
+font-family: 'Bowlby One SC', cursive;
+ font-size: 28px;
+ font-weight:lighter;
 margin-left:15px;
  float:left;
 font-style:normal;
@@ -300,7 +308,7 @@ text-align:center;
 margin-top:0px;
 margin-bottom:25px;
  color:#fff;
-text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
+text-shadow: 0 0 0 transparent, -2px 2px 3px #000;
 }
 
 #headline44 {
@@ -458,9 +466,10 @@ float:right;
 z-index:10;
 color:#fff;
 position:absolute;
-font-family: 'Prosto One', cursive;
-font-size: 33px;
-font-weight:600;
+color: #fff;
+font-family: Impact, Charcoal, sans-serif;
+font-size: 44px;
+font-weight:bolder;
 margin-left:25px;
 text-shadow:0 0 0 transparent, 2px 2px 1px #00204d;
 top:105px;          
@@ -500,8 +509,8 @@ a.imglink img {
 }
 
 a.imglink:hover img{
-  ofilter: alpha(opacity=50);
-    opacity: .5;
+  ofilter: alpha(opacity=60);
+    opacity: .6;
 }
 
 #electricone {
@@ -544,9 +553,9 @@ text-decoration: none;
 
 .firstheader {
 text-align:center;
-color:#fff;
-font-weight:bold;
-font-family: 'Prosto One', cursive;
+color:yellow;
+font-weight:lighter;
+font-family: 'Bowlby One SC', cursive;
 text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 font-size:24px;
 margin-bottom:20px;
@@ -611,15 +620,15 @@ background: #1542bd;
 width:100%;
 margin-top:1px;
 background: #1542bd;
-opacity:0.9;
+
 }
 
 #reviewbottom {
 width:100%;
 margin-top:1px;
 background: #1542bd;
-opacity:0.9;
-margin-bottom:5px;
+
+
 }
 #officespace{
 margin-top:7px;
