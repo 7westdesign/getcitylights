@@ -6,18 +6,22 @@
 @import url(http://fonts.googleapis.com/css?family=Prosto+One);
 
 @import url(http://fonts.googleapis.com/css?family=Bowlby+One+SC);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,800,900);
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
+@import url(http://fonts.googleapis.com/css?family=Nobile:400,700);
 
 
 .welcometop {
   right: 0;
   left: 0;
   top: 0;
-  background:url(/images/slide2.JPG);
+  background:url(/images/ant.JPG);
 background-size: cover;
 background-repeat:no-repeat;
-  min-height:195px;
+  min-height:210px;
 max-height:auto;
-
+background: #1542bd;
 width:100%;
  	
 }
@@ -45,12 +49,12 @@ background:none;
 #cllogo  {
 float:left;
 display:inline-block;
-padding-top:-2px;
-margin-top:5px;
-margin-left:7px;
-width: 195px;
-height:145px;
-margin-bottom:20px;
+padding-top:0px;
+margin-top:-4px;
+margin-left:50px;
+width: 275px;
+height:238px;
+margin-bottom:0px;
 
 }
 
@@ -84,11 +88,11 @@ margin-left:-20px
 }
 
 #midnav > ul.navbar-nav > li > a {
-color:#333;
+color:#222;
 }
 
 #midnav > ul.navbar-nav > li > a:hover {
-color:#fff;
+color:yellow;
 }
 
 #midnav.in > ul.navbar-nav > li > a {
@@ -107,7 +111,7 @@ color:#fff;
 /* White Mid Navbar Li Hover Background Color*/
 .navbar-nav > li:hover {
   text-decoration: none;
-  background-color: #939393;
+background: #1542bd;
 }
 
 /* White Mid Navbar a.active:hover link color*/
@@ -117,9 +121,11 @@ color:#fff;
 }
 
 #midnav {
-margin-left:295px;
+ margin-left:275px;
 max-height:53px;
+ float:none;
 }
+
 
 
 #leftnav {
@@ -143,17 +149,30 @@ width:800px;
 
 
 #headline33 {
-font-family: 'Bowlby One SC', cursive;
- font-size: 28px;
- font-weight:lighter;
+font-family: 'Nobile', sans-serif;
+ font-size: 23px;
+ font-weight:800;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
  float:left;
 font-style:normal;
 text-align:center;
-margin-left:9px;
-margin-top:0px;
+margin-left:80px;
+margin-top:11px;
 margin-bottom:35px;
- color:#fff;
+ color:yellow;
+}
+
+.slickfont1 {
+z-index:10;
+color:#fff;
+position:absolute;
+color: #fff;
+font-family: 'Nobile', sans-serif;
+font-size: 38px;
+font-weight:800;
+margin-left:25px;
 text-shadow: 0 0 0 transparent, -2px 2px 2px #000;
+top:105px;          
 }
 
 /* Angies List Logo Div */
@@ -222,9 +241,9 @@ width:138px;
 
 
 #topline3{
-font-family: 'Bowlby One SC', cursive;
- font-size: 11px;
- font-weight:lighter;
+font-family: 'Nobile', sans-serif;
+ font-size: 13px;
+ font-weight:700;
  float:left;
 margin-top:6px;
 margin-bottom:30px;
@@ -232,19 +251,19 @@ margin-left:35px;
 text-align:left;
  display:inline-block;
  color:#fff;
-text-shadow: 0 0 0 transparent, -1px 1px 1px #000;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 }
 
 #topline7{
-font-family: 'Bowlby One SC', cursive;
+font-family: 'Nobile', sans-serif;
  font-size: 11px;
- font-weight:lighter;
- font-size: 11px;
+ font-weight:700;
+ font-size: 13px;
  float:left;
 margin-top:6px;
 margin-left:35px;
 margin-bottom:7px;
-text-shadow: 0 0 0 transparent, -1px 1px 1px #000;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
  display:inline-block;
  color:#fff;
 }
@@ -272,17 +291,17 @@ text-shadow:0 0 0 transparent, -2px 2px 2px #0c2771;
 }
 
 #topline {
-font-family: 'Bowlby One SC', cursive;
- font-size: 11px;
- font-weight:lighter;
+font-family: 'Nobile', sans-serif;
+ font-size: 13px;
+ font-weight:800;
  float:left;
 margin-top:6px;
 margin-left:35px;
 margin-bottom:7px;
 text-align:center;
  display:inline-block;
- color:#FFCC11;
-text-shadow:0 0 0 transparent, -1px 1px 1px #222;
+ color:yellow;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 
 }
 
@@ -297,18 +316,20 @@ margin-left:0px;
  color:yellow;
 }
 
+
+
 #headline24 {
-font-family: 'Bowlby One SC', cursive;
- font-size: 28px;
- font-weight:lighter;
-margin-left:15px;
+font-family: 'Nobile', sans-serif;
+ font-size: 18px;
+ font-weight:800;
+margin-left:40px;
  float:left;
 font-style:normal;
 text-align:center;
 margin-top:0px;
 margin-bottom:25px;
  color:#fff;
-text-shadow: 0 0 0 transparent, -2px 2px 3px #000;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 }
 
 #headline44 {
@@ -462,18 +483,7 @@ margin-top:2px;
 float:right;
 }
 
-.slickfont1 {
-z-index:10;
-color:#fff;
-position:absolute;
-color: #fff;
-font-family: Impact, Charcoal, sans-serif;
-font-size: 44px;
-font-weight:bolder;
-margin-left:25px;
-text-shadow:0 0 0 transparent, 2px 2px 1px #00204d;
-top:105px;          
-}
+
 .slickfont2 {
 z-index:10;
 color:#fff;
@@ -534,18 +544,17 @@ margin-bottom:15px;
 
 
 .navbar-nav > li > a {
-padding-left:37px;
-padding-right:37px;
-color:#222;
-font-weight:normal;
+padding-left:42px;
+padding-right:42px;
+font-weight:700;
 text-shadow:none;
-font-family: 'Prosto One', cursive;
+font-family: 'Nobile', sans-serif;
 font-size:17px;
 text-decoration: none; 
 }
 
 .navbar-default .navbar-nav > .active > a {
-  color: #3D3D3D; 
+  color: #777; 
 }
 
 @media (max-width: 480px) { .col-ts-12 { float: none; width:100%; } }
@@ -554,8 +563,8 @@ text-decoration: none;
 .firstheader {
 text-align:center;
 color:yellow;
-font-weight:lighter;
-font-family: 'Bowlby One SC', cursive;
+font-weight:800;
+font-family: 'Nobile', sans-serif;
 text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 font-size:24px;
 margin-bottom:20px;
@@ -601,9 +610,9 @@ height:100px; position:fixed; width:1000px; top:0; margin: auto; display: block;
 }
 
 .introsummary {
-font-family: 'Prosto One', cursive;
+font-family: 'Open Sans', sans-serif;
 color:#fff;
-font-size:13px;
+font-size:14px;
 text-align:justify;
 
 }
@@ -648,7 +657,7 @@ margin-top:18px;
 text-align:justify;
 margin-top:16px;
 text-indent:50px;
-font-family: 'Prosto One', cursive;
+font-family: 'Open Sans', sans-serif;
 color:#fff;
 font-size:14px;
 }
