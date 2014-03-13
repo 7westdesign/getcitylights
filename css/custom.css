@@ -1,21 +1,31 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
-@import url(http://fonts.googleapis.com/css?family=Passion+One:700);
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,900);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
 @import url(http://fonts.googleapis.com/css?family=Prosto+One);
-
 @import url(http://fonts.googleapis.com/css?family=Bowlby+One+SC);
 @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,800,900);
-
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
 @import url(http://fonts.googleapis.com/css?family=Nobile:400,700);
 
+* { margin: 0; padding: 0; }
+
+
+html, body {
+width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+}
+
+#truck {
+width:100px;
+height:200px;
+background-color:red;
+}
 
 .welcometop {
-  left:0px;
-  top: 0;
-  background:url(/images/ant.JPG);
+  margin:0;
+  background:url(/images/truck2.JPG);
 background-size: cover;
 background-repeat:no-repeat;
   min-height:210px;
@@ -49,10 +59,10 @@ background:none;
 float:left;
 display:inline-block;
 padding-top:0px;
-margin-top:-4px;
-margin-left:50px;
-width: 275px;
-height:238px;
+margin-top:-8px;
+margin-left:30px;
+width: 280px;
+height:270px;
 margin-bottom:0px;
 
 }
@@ -60,7 +70,7 @@ margin-bottom:0px;
 
 /* White Mid Navbar */
 .navbar-default  {
-  background-color:#fff ;
+  background-color:#e7e7e7 ;
   border-color: #e7e7e7;
   top:auto;
 }
@@ -87,7 +97,7 @@ margin-left:-20px
 }
 
 #midnav > ul.navbar-nav > li > a {
-color:#555;
+color:#333;
 }
 
 #midnav > ul.navbar-nav > li > a:hover {
@@ -147,31 +157,16 @@ width:800px;
 }
 
 
-#headline33 {
-font-family: 'Nobile', sans-serif;
- font-size: 23px;
-line-height:130%;
- font-weight:800;
-text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
- float:left;
-font-style:normal;
-text-align:center;
-margin-left:80px;
-margin-top:11px;
-margin-bottom:35px;
- color:yellow;
-}
-
 .slickfont1 {
 z-index:10;
 color:#fff;
 position:absolute;
 color: #fff;
-font-family: 'Nobile', sans-serif;
-font-size: 38px;
-font-weight:800;
+font-family: 'Bowlby One SC', cursive;
+font-size: 37px;
+font-weight:lighter;
 margin-left:25px;
-text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
+text-shadow:0 0 0 transparent, -2px 2px 2px #222;
 top:105px;          
 }
 
@@ -184,7 +179,7 @@ float:left;
 margin-top:0px;
 left:70px;
 margin-bottom:45px;
-width:145px;
+width:225px;
 height:50px;
 background:none;
 }
@@ -293,7 +288,7 @@ text-shadow:0 0 0 transparent, -2px 2px 2px #0c2771;
 #topline {
 font-family: 'Nobile', sans-serif;
  font-size: 13px;
- font-weight:800;
+ font-weight:700;
  float:left;
 margin-top:6px;
 margin-left:35px;
@@ -316,21 +311,53 @@ margin-left:0px;
  color:yellow;
 }
 
+#headline33 {
+font-family: 'Bowlby One SC', cursive;
+ font-size: 25px;
+line-height:140%;
+ font-weight:300;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
+ float:left;
+font-style:normal;
+text-align:center;
+margin-left:-10px;
+margin-top:22px;
+margin-bottom:15px;
+ color:yellow;
+}
 
 
 #headline24 {
+font-family: 'Bowlby One SC', cursive;
+ font-size: 23px;
+ font-weight:300;
+margin-left:10px;
+ float:left;
+font-style:normal;
+text-align:center;
+line-height:160%;
+margin-top:22px;
+margin-bottom:25px;
+ color:#fff;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
+}
+
+
+#headline25 {
 font-family: 'Nobile', sans-serif;
- font-size: 18px;
+ font-size: 22px;
  font-weight:800;
 margin-left:40px;
  float:left;
 font-style:normal;
 text-align:center;
-margin-top:0px;
+line-height:160%;
+margin-top:-5px;
 margin-bottom:25px;
  color:#fff;
 text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 }
+
 
 #headline44 {
 font-family: font-family: Tahoma, Geneva, sans-serif;
@@ -362,6 +389,16 @@ height:55px;
 padding-bottom:0px;
 }
 
+#alogo4  {
+position:relative;
+float:left;
+margin-top:0px;
+margin-left:15px;
+width: 50px;
+height:55px;
+padding-bottom:0px;
+}
+
 #angy {
 position:relative;
 width:77px;
@@ -386,12 +423,6 @@ margin-top:-7px;
 
 
 
-/* Move down content because we have a fixed navbar that is 50px tall */
-body {
-  background:#fff;
-  
-}
-
 #reviewimg {
 margin-top:15px;
 margin-left:150px;
@@ -403,9 +434,10 @@ box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
 
 /*! Put margin top -10px to three images group */
 #wide-display  {
-  
+ margin:2px 0 0 0;
+padding:0;
 background:#fff;
-min-width:100%;
+width:100%;
 }
 
 .col-md-4  {
@@ -420,18 +452,19 @@ padding:0px;
 #firstholder {
 display:inline-block;
 float:left;
-margin-top:1px;
+margin:0;
 
 
 }
 #secondholder {
 float:left;
 display:inline-block;
-
+margin:0;
 }
 
 #thirdholder {
 float:left;
+margin:0;
 display:inline-block;
 
 }
@@ -440,6 +473,13 @@ display:inline-block;
 .item1 {
 width: 150px;
 margin:auto;
+z-index:10;
+}
+
+.item2 {
+width: 300px;
+margin-left:auto;
+margin-right:auto;
 z-index:10;
 }
 
@@ -488,8 +528,10 @@ float:right;
 z-index:10;
 color:#fff;
 position:absolute;
-margin-left:16px;
+margin-left:auto;
+margin-right:auto;
 font-family: 'Prosto One', cursive;
+text-align:center;
 font-size: 33px;
 font-weight:600;
 text-shadow:0 0 0 transparent, 2px 2px 1px #00204d;
@@ -523,7 +565,8 @@ a.imglink:hover img{
     opacity: .6;
 }
 
-#electricone {
+#electricone, #electrictwo, thirdelectric {
+min-height:338px;
 
 }
 
@@ -533,22 +576,13 @@ height:366px;
 margin-bottom:15px;
 }
 
-#electrictwo {
-
-}
-
-#thirdelectric {
-
-}
-
-
 
 .navbar-nav > li > a {
 padding-left:42px;
 padding-right:42px;
-font-weight:700;
+font-weight:500;
 text-shadow:none;
-font-family: 'Nobile', sans-serif;
+font-family: 'Prosto One', cursive;
 font-size:17px;
 text-decoration: none; 
 }
@@ -566,7 +600,9 @@ color:yellow;
 font-weight:800;
 font-family: 'Nobile', sans-serif;
 text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
-font-size:24px;
+font-size:25px;
+margin-top:35px;
+line-height:140%;
 margin-bottom:20px;
 }
 
@@ -619,12 +655,17 @@ text-align:justify;
 
 /*! Bottom Marketing Content */
 #bottommarketing, #bottomreviews {
-width:100%;
-left:0px;
-margin-top:-4px;
+min-width:100%;
+margin: -4px 0 0 0;
 background: #1542bd;
 
 }
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #1542bd;
+}
+
 
 #bottomoffice, #bottomhome  {
 width:100%;
@@ -651,7 +692,7 @@ margin-top:5px;
 margin-bottom:0px;
 }
 #sideoffice {
-margin-left:0px;
+
 margin-top:18px;
 }
 .officesummary {
@@ -686,7 +727,7 @@ margin-top:18px;
 margin-bottom:10px;
 float:center;
 font-size:12px;
-font-weight:800;
+font-weight:600;
 color:#fff;
 font-family: 'Open Sans', sans-serif;
 }
