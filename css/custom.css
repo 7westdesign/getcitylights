@@ -13,8 +13,7 @@
 
 
 .welcometop {
-  right: 0;
-  left: 0;
+  left:0px;
   top: 0;
   background:url(/images/ant.JPG);
 background-size: cover;
@@ -88,7 +87,7 @@ margin-left:-20px
 }
 
 #midnav > ul.navbar-nav > li > a {
-color:#222;
+color:#555;
 }
 
 #midnav > ul.navbar-nav > li > a:hover {
@@ -151,6 +150,7 @@ width:800px;
 #headline33 {
 font-family: 'Nobile', sans-serif;
  font-size: 23px;
+line-height:130%;
  font-weight:800;
 text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
  float:left;
@@ -171,7 +171,7 @@ font-family: 'Nobile', sans-serif;
 font-size: 38px;
 font-weight:800;
 margin-left:25px;
-text-shadow: 0 0 0 transparent, -2px 2px 2px #000;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 top:105px;          
 }
 
@@ -620,6 +620,7 @@ text-align:justify;
 /*! Bottom Marketing Content */
 #bottommarketing, #bottomreviews {
 width:100%;
+left:0px;
 margin-top:-4px;
 background: #1542bd;
 
