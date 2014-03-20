@@ -17,7 +17,17 @@ margin: 0px;
 padding: 0px;
 }
 
+#firsttop {
 
+margin:0;
+  background:url(/images/truck2.JPG);
+background-size: cover;
+background-repeat:no-repeat;
+  min-height:210px;
+max-height:auto;
+background: #1542bd;
+width:100%;
+}
 
 .welcometop {
   margin:0;
@@ -27,7 +37,7 @@ background-repeat:no-repeat;
   min-height:210px;
 max-height:auto;
 background: #1542bd;
-width:100%;
+
  	
 }
 
@@ -66,8 +76,8 @@ margin-bottom:0px;
 
 /* White Mid Navbar */
 .navbar-default  {
-  background-color:#e7e7e7 ;
-  border-color: #e7e7e7;
+  background-color:#fff ;
+  border-color: none;
   top:auto;
 }
 
@@ -434,6 +444,7 @@ box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
 padding:0;
 background:#fff;
 width:100%;
+height:auto;
 }
 
 .col-md-4  {
@@ -608,23 +619,28 @@ margin-top:45px;
 
 .officeheader {
 text-align:center;
-color:#fff;
+color:#000;
 font-weight:bold;
 line-height:200%;
 font-weight:800;
 font-family: 'Nobile', sans-serif;
 font-size:27px;
-text-shadow: 0 0 0 transparent, -2px 2px 3px #003176;
+text-shadow: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #1542bd;
+border: 1px #000;
 }
 
 .officeheading {
 text-align:left;
-color:#fff;
+color:#000;
 margin-bottom:35px;
 font-weight:800;
 font-family: 'Nobile', sans-serif;
 font-size:24px;
-text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
+text-shadow:none;
 }
 
 .officemain {
@@ -632,12 +648,12 @@ margin-top:10px;
 margin-bottom:50px;
 margin-left:0px;
 text-align:left;
-color:#fff;
+color:#000;
 font-weight:bold;
 font-weight:800;
 font-family: 'Nobile', sans-serif;
 font-size:24px;
-text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
+text-shadow:none;
 }
 
 #header_container {
@@ -655,7 +671,7 @@ text-align:justify;
 /*! Bottom Marketing Content */
 #bottommarketing, #bottomreviews {
 min-width:100%;
-margin: -4px 0 0 0;
+margin:  0;
 background: #1542bd;
 
 }
@@ -669,7 +685,7 @@ background: #1542bd;
 #bottomoffice, #bottomhome  {
 width:100%;
 margin-top:1px;
-background: #1542bd;
+background: #fff;
 
 }
 
@@ -690,7 +706,7 @@ margin-top:15px;
 margin-top:5px;
 margin-bottom:0px;
 }
-#sideoffice {
+#sideoffice, #sidehome {
 
 margin-top:18px;
 }
