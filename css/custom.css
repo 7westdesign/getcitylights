@@ -1,5 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,900);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
 @import url(http://fonts.googleapis.com/css?family=Prosto+One);
 @import url(http://fonts.googleapis.com/css?family=Bowlby+One+SC);
@@ -325,10 +324,10 @@ margin-left:0px;
 }
 
 #headline33 {
-font-family: 'Bowlby One SC', cursive;
+font-family: 'Prosto One', cursive;
  font-size: 25px;
 line-height:140%;
- font-weight:300;
+ font-weight:800;
 text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
  float:left;
 font-style:normal;
@@ -341,9 +340,9 @@ margin-bottom:15px;
 
 
 #headline24 {
-font-family: 'Bowlby One SC', cursive;
+font-family: 'Prosto One', cursive;
  font-size: 23px;
- font-weight:300;
+ font-weight:800;
 margin-left:10px;
  float:left;
 font-style:normal;
@@ -414,10 +413,10 @@ padding-bottom:0px;
 
 #angy {
 position:relative;
-width:77px;
-height:77px;
+width:55px;
+height:55px;
 margin-top:0px;
-margin-left:5px;
+margin-left:15px;
 float:left;
 
 }
