@@ -68,11 +68,11 @@ background:none;
 
 /* City Lights Logo  */
 #cllogo  {
-float:left;
+float:center;
 display:inline-block;
 padding-top:0px;
 margin-top:-8px;
-margin-left:30px;
+margin-left:0px;
 width: 280px;
 height:260px;
 margin-bottom:0px;
@@ -148,7 +148,6 @@ max-height:53px;
 }
 
 
-
 #leftnav {
 float:left-bottom;
 margin-left:300px;
@@ -197,8 +196,6 @@ background:none;
 }
 
 
-
-
 #phonespace {
 text-align:center;
 display:inline-block;
@@ -244,8 +241,6 @@ background:none;
 height:25px;
 width:138px;
 }
-
-
 
 #topline3{
 font-family: 'Nobile', sans-serif;
@@ -404,7 +399,7 @@ padding-bottom:0px;
 #alogo4  {
 position:relative;
 float:left;
-margin-top:0px;
+margin-top:2px;
 margin-left:15px;
 width: 50px;
 height:55px;
@@ -415,7 +410,7 @@ padding-bottom:0px;
 position:relative;
 width:55px;
 height:55px;
-margin-top:0px;
+margin-top:2px;
 margin-left:15px;
 float:left;
 
@@ -432,7 +427,6 @@ color:#6195b8;
 margin-left:80px;
 margin-top:-7px;
 }
-
 
 
 #reviewimg {
