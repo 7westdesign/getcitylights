@@ -32,9 +32,6 @@ display:block;
 #firsttop {
 
 margin:0;
-  background:url(/images/truck2.JPG);
-background-size: cover;
-background-repeat:no-repeat;
   min-height:210px;
 background: #1542bd;
 width:100%;
@@ -103,6 +100,11 @@ padding-top:5px;
 
 }
 
+.navbar-nav {
+margin-left:0;
+}
+
+
 #midnav.in > ul.navbar-nav {
 margin-top: -205px;
 margin-left:-20px
@@ -142,7 +144,7 @@ background: #1542bd;
 }
 
 #midnav {
- margin-left:275px;
+ margin-left:0;
 max-height:53px;
  float:none;
 }
@@ -170,15 +172,19 @@ width:800px;
 
 .slickfont1 {
 z-index:10;
-color:#fff;
-position:absolute;
 color: #fff;
+position:absolute;
 font-family: 'Bowlby One SC', cursive;
 font-size: 37px;
 font-weight:lighter;
-margin-left:25px;
-text-shadow:0 0 0 transparent, -2px 2px 2px #222;
-top:105px;          
+margin: auto;  
+  position: absolute;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0; 
+text-shadow:0 0 0 transparent, -2px 2px 2px  #1542bd;
+         
 }
 
 /* Angies List Logo Div */
@@ -440,10 +446,10 @@ box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
 
 /*! Put margin top -10px to three images group */
 #wide-display  {
- margin:2px 0 0 0;
+ margin:0;
 padding:0;
 background:#fff;
-width:100%;
+width:auto;
 height:auto;
 }
 
@@ -460,7 +466,9 @@ padding:0px;
 display:inline-block;
 float:left;
 margin:0;
+padding:0;
 height:auto;
+position:relative;
 
 
 }
@@ -469,21 +477,27 @@ float:left;
 display:inline-block;
 margin:0;
 height:auto;
+padding:0;
+
 }
 
 #thirdholder {
 float:left;
 margin:0;
+padding:0;
 display:inline-block;
 height:auto;
+
 
 }
 
 
 .item1 {
+height:150px;
 width: 150px;
-margin:auto;
-z-index:10;
+margin: 0 auto;
+position:absolute;
+z-index:100;
 }
 
 .item2 {
@@ -563,7 +577,8 @@ a.imglink{
   background:         #fff;
   display:            inline-block;
 width:100%;
-height:100%;
+height:auto;
+position:relative;
 }
 
 a.imglink img {
