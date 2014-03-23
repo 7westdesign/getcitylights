@@ -345,7 +345,7 @@ margin-left:0px;
 }
 
 #headline33 {
-font-family: 'Prosto One', cursive;
+font-family: 'Nobile', sans-serif;
  font-size: 25px;
 line-height:140%;
  font-weight:800;
@@ -355,13 +355,13 @@ font-style:normal;
 text-align:center;
 margin-left:-10px;
 margin-top:22px;
-margin-bottom:15px;
+margin-bottom:5px;
  color:yellow;
 }
 
 
 #headline24 {
-font-family: 'Prosto One', cursive;
+font-family: 'Nobile', sans-serif;
  font-size: 23px;
  font-weight:800;
 margin-left:10px;
@@ -378,9 +378,9 @@ text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 
 #headline25 {
 font-family: 'Nobile', sans-serif;
- font-size: 22px;
+ font-size: 20px;
  font-weight:800;
-margin-left:0px;
+margin-left:-30px;
 font-style:normal;
 text-align:center;
 line-height:160%;
@@ -487,10 +487,7 @@ margin:0;
 padding:0;
 height:auto;
 position:relative;
-
 }
-
-
 
 
 #secondholder {
@@ -519,7 +516,9 @@ width: 150px;
 margin: 0 auto;
 position:absolute;
 z-index:100;
-vertical-align:middle;
+margin-left:38%;
+margin-top:25%;
+
 }
 
 .item2 {
