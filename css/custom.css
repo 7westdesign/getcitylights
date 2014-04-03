@@ -164,7 +164,7 @@ background: #1542bd;
 }
 
 #midnav {
-margin-left:230px;
+margin-left:200px;
 max-height:53px;
 float:center;
 }
@@ -210,7 +210,7 @@ display:inline-block;
 position:relative;
 float:left;
 margin-top:0px;
-margin-bottom:45px;
+margin-bottom:40px;
 height:50px;
 background:none;
 }
@@ -352,18 +352,61 @@ font-style:normal;
 text-align:center;
 margin-left:0px;
 margin-top:33px;
-margin-bottom:28px;
+margin-bottom:5px;
  color:yellow;
 }
 
 
-.headline24 {
+#headline24 {
 font-family: 'Nobile', sans-serif;
- font-size: 18px;
+ font-size: 17px;
  font-weight:800;
 font-style:normal;
 text-align:center;
-float:none;
+line-height:170%;
+margin-top:0px;
+margin-bottom:25px;
+ color:#fff;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
+
+}
+
+
+#headline27 {
+font-family: 'Nobile', sans-serif;
+ font-size: 17px;
+ font-weight:800;
+font-style:normal;
+text-align:center;
+line-height:170%;
+margin-top:0px;
+margin-bottom:25px;
+ color:#fff;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
+
+}
+#headline30 {
+font-family: 'Nobile', sans-serif;
+ font-size: 17px;
+ font-weight:800;
+font-style:normal;
+text-align:center;
+line-height:170%;
+margin-top:0px;
+margin-bottom:30px;
+ color:#fff;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
+
+}
+
+
+
+#headline28 {
+font-family: 'Nobile', sans-serif;
+ font-size: 17px;
+ font-weight:800;
+font-style:normal;
+text-align:center;
 line-height:140%;
 margin-top:40px;
 margin-bottom:25px;
@@ -371,6 +414,7 @@ margin-bottom:25px;
 text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 
 }
+
 
 
 #headline25 {
@@ -608,10 +652,19 @@ a.imglink:hover img{
     opacity: .6;
 }
 
-#electricone, #electrictwo, thirdelectric {
+#electricone {
 height:auto;
 width:auto;
 background-size:cover;
+margin-top:3px;
+}
+
+
+ #electrictwo, #thirdelectric {
+height:auto;
+width:auto;
+background-size:cover;
+margin-top:1px;
 }
 
 #electricoffice, #electrichome, #electricoffice2, #home3  {
@@ -650,7 +703,7 @@ margin-bottom:20px;
 }
 
 #officepic, #homepic {
-margin-top:122px;
+margin-top:55px;
 
 }
 
@@ -682,10 +735,10 @@ line-height:140%;
 text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 }
 
-.officemain {
+.offermain {
 margin-top:10px;
 margin-bottom:50px;
-margin-left:-10px;
+margin-left:2px;
 text-align:left;
 color:yellow;
 font-weight:bold;
@@ -703,9 +756,10 @@ height:100px; position:fixed; width:1000px; top:0; margin: auto; display: block;
 
 .introsummary {
 font-family: 'Nobile', sans-serif;
- font-size: 17px;
- font-weight:800;
+ font-size: 14px;
+ font-weight:600;
 color:#fff;
+line-height:160%;
 text-align:center;
 text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 
@@ -728,7 +782,7 @@ background: #1542bd;
 
 #bottomoffice, #bottomhome  {
 width:100%;
-margin-top:1px;
+margin-top:11px;
 background: #1542bd;	
 }
 
