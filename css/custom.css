@@ -14,7 +14,7 @@
   margin-left: 0;
 }
 
-#wrapthis{
+.wrapthis {
 
 white-space: pre-wrap;      /* CSS3 */   
    white-space: -moz-pre-wrap; /* Firefox */    
@@ -22,21 +22,13 @@ white-space: pre-wrap;      /* CSS3 */
    white-space: -o-pre-wrap;   /* Opera 7 */    
    word-wrap: break-word;
 
-
 }
 
-html, body {
-width: 100%;
-height: 100%;
-margin: 0px;
-padding: 0px;
-}
 
 img-responsive {
-max-width:100% 
+width:auto; 
 height:auto;
 display:block;
-
 }
 
 #firsttop {
@@ -46,7 +38,6 @@ margin-right:0;
 background: #1542bd;
 min-width:100%;
 height:auto;
-
 }
 
 .welcometop {
@@ -56,6 +47,9 @@ max-height:auto;
 background: #1542bd;	
 }
 
+body {
+background: #1542bd;
+}
 
 .navbar-static-top  {
 top: auto;
@@ -77,14 +71,13 @@ background:none;
 
 /* City Lights Logo  */
 #cllogo  {
-float:center;
 display:inline-block;
 padding-top:0px;
 margin-top:-8px;
-margin-left:0px;
+margin-left:5px;
 width: 280px;
 height:260px;
-margin-bottom:0px;
+margin-bottom:7px;
 
 }
 
@@ -111,8 +104,8 @@ margin-bottom:0px;
 }
 
 .container-fluid {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: -15px;
+  padding-left: -15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -120,7 +113,7 @@ margin-bottom:0px;
 
 #midnav.in {
   overflow-y: visible;
-margin-left:-40px;
+margin-left:-20px;
 margin-top: 200px;
 padding-top:5px;
 
@@ -170,9 +163,9 @@ background: #1542bd;
 }
 
 #midnav {
- margin-left:0;
+margin-left:245px;
 max-height:53px;
- float:none;
+float:center;
 }
 
 
@@ -274,6 +267,7 @@ font-family: 'Nobile', sans-serif;
  font-weight:700;
  float:left;
 margin-top:6px;
+line-height:140%;
 margin-bottom:30px;
 margin-left:35px;
 text-align:left;
@@ -344,7 +338,7 @@ margin-left:0px;
  color:yellow;
 }
 
-#headline33 {
+.headline33 {
 font-family: 'Nobile', sans-serif;
  font-size: 25px;
 line-height:140%;
@@ -353,26 +347,26 @@ text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
  float:left;
 font-style:normal;
 text-align:center;
-margin-left:-10px;
-margin-top:22px;
-margin-bottom:5px;
+margin-left:0px;
+margin-top:33px;
+margin-bottom:28px;
  color:yellow;
 }
 
 
-#headline24 {
+.headline24 {
 font-family: 'Nobile', sans-serif;
- font-size: 23px;
+ font-size: 18px;
  font-weight:800;
 margin-left:10px;
- float:left;
 font-style:normal;
 text-align:center;
-line-height:160%;
-margin-top:22px;
+line-height:140%;
+margin-top:39px;
 margin-bottom:25px;
  color:#fff;
 text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
+
 }
 
 
@@ -380,7 +374,7 @@ text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 font-family: 'Nobile', sans-serif;
  font-size: 20px;
  font-weight:800;
-margin-left:-30px;
+margin-left:0px;
 font-style:normal;
 text-align:center;
 line-height:160%;
@@ -467,15 +461,12 @@ box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
  margin:0;
 padding:0;
 background:#fff;
-width:auto;
+width:100%;
 height:auto;
 }
 
 .col-md-4  {
 
-position: relative;
-  min-height: 1px;
-padding:0px;
 
 }
 /*! First img Holder */
@@ -496,6 +487,7 @@ display:inline-block;
 margin:0;
 height:auto;
 padding:0;
+position:relative;
 
 }
 
@@ -505,7 +497,7 @@ margin:0;
 padding:0;
 display:inline-block;
 height:auto;
-
+position:relative;
 
 }
 
@@ -577,9 +569,10 @@ margin-left:auto;
 margin-right:auto;
 font-family: 'Prosto One', cursive;
 text-align:center;
-font-size: 33px;
+font-family: 'Nobile', sans-serif;
+font-size:29px;
 font-weight:600;
-text-shadow:0 0 0 transparent, 2px 2px 1px #00204d;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 top:38px;          
 }
 
@@ -614,11 +607,13 @@ a.imglink:hover img{
 
 #electricone, #electrictwo, thirdelectric {
 height:auto;
+width:auto;
+background-size:cover;
 }
 
 #electricoffice, #electrichome, #electricoffice2, #home3  {
-width:100%;
-height:366px;
+width:auto;
+height:auto;
 margin-bottom:15px;
 }
 
@@ -658,28 +653,29 @@ margin-top:45px;
 
 .officeheader {
 text-align:center;
-color:#000;
+color:#fff;
 font-weight:bold;
 line-height:200%;
 font-weight:800;
 font-family: 'Nobile', sans-serif;
 font-size:27px;
-text-shadow: none;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #1542bd;
-border: 1px #000;
+  background-color: #000;
+border-style: 1px #000;
+height:3px;
 }
 
 .officeheading {
 text-align:left;
-color:#000;
+color:#fff;
 margin-bottom:35px;
 font-weight:800;
 font-family: 'Nobile', sans-serif;
 font-size:24px;
-text-shadow:none;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 }
 
 .officemain {
@@ -687,12 +683,12 @@ margin-top:10px;
 margin-bottom:50px;
 margin-left:0px;
 text-align:left;
-color:#000;
+color:#fff;
 font-weight:bold;
 font-weight:800;
 font-family: 'Nobile', sans-serif;
 font-size:24px;
-text-shadow:none;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 }
 
 #header_container {
@@ -702,7 +698,7 @@ height:100px; position:fixed; width:1000px; top:0; margin: auto; display: block;
 .introsummary {
 font-family: 'Open Sans', sans-serif;
 color:#fff;
-font-size:14px;
+font-size:18px;
 text-align:justify;
 
 }
@@ -724,8 +720,7 @@ background: #1542bd;
 #bottomoffice, #bottomhome  {
 width:100%;
 margin-top:1px;
-background: #fff;
-
+background: #1542bd;	
 }
 
 #reviewbottom {
@@ -736,11 +731,16 @@ background: #1542bd;
 
 }
 #officespace{
-margin-top:7px;
+margin-top:30px;
 }
 #officefront{
+margin:0;
+padding:0;
+height:auto;
+position:relative;
 margin-top:15px;
 }
+
 #officetop {
 margin-top:5px;
 margin-bottom:0px;
