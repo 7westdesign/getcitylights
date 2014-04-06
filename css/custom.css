@@ -524,17 +524,13 @@ box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
  margin:0;
 padding:0;
 background:#fff;
-width:100%;
 height:auto;
 }
 
-.col-md-4  {
 
-
-}
 /*! First img Holder */
 
-#firstholder {
+#firstholder, #firstholder:hover {
 display:inline-block;
 float:left;
 margin:0;
@@ -544,7 +540,8 @@ position:relative;
 }
 
 
-#secondholder {
+#secondholder, 
+#secondholder:hover {
 float:left;
 display:inline-block;
 margin:0;
@@ -554,7 +551,7 @@ position:relative;
 
 }
 
-#thirdholder {
+#thirdholder, #thirdholder:hover {
 float:left;
 margin:0;
 padding:0;
@@ -651,12 +648,14 @@ position: absolute;
 
 /*! Hover img links transparancy change to bright light */
 
-a.imglink{
+a.imglink, a.imglink:hover{
   background:         #fff;
   display:            inline-block;
 width:100%;
 height:auto;
 position:relative;
+margin:0;
+padding:0;
 }
 
 a.imglink img {
@@ -669,7 +668,7 @@ a.imglink:hover img{
     opacity: .6;
 }
 
-#electricone {
+#electricone  {
 height:auto;
 width:auto;
 background-size:cover;
@@ -677,7 +676,7 @@ margin-top:3px;
 }
 
 
- #electrictwo, #thirdelectric {
+ #electrictwo,  #thirdelectric {
 height:auto;
 width:auto;
 background-size:cover;
@@ -872,7 +871,7 @@ font-family: 'Open Sans', sans-serif;
 
 /* Adjust the custom breakpoint for tablets */
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
     .navbar-header {
         float: none;
     }
