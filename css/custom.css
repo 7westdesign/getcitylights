@@ -176,11 +176,10 @@ width:800px;
 .slickfont1 {
 z-index:10;
 color: #fff;
-position:absolute;
 font-family: 'Bowlby One SC', cursive;
 font-size: 37px;
 font-weight:lighter;  
-  position: absolute;
+position: absolute;
 text-shadow:0 0 0 transparent, -2px 2px 2px  #1542bd;
          
 }
@@ -356,7 +355,7 @@ text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 }
 #headline31 {
 font-family: 'Nobile', sans-serif;
- font-size: 21px;
+ font-size: 22px;
  font-weight:800;
 font-style:normal;
 float:left;
@@ -549,10 +548,9 @@ position:relative;
 width: 20%;
 height: 20%;
 z-index:100;
- position: absolute;
+position: absolute;
 left: 33%;
-  top: 38%;
-  transform: translate(-50%, -50%);
+top: 38%;
 }
 
 .item2 {
@@ -762,7 +760,7 @@ height:100px; position:fixed; width:1000px; top:0; margin: auto; display: block;
 text-indent:25px;
 font-family: 'Nobile', sans-serif;
  font-size: 18px;
- font-weight:400;
+ font-weight:400; 
 color:#fff;
 line-height:162%;
 text-align:center;
@@ -779,10 +777,10 @@ text-shadow:0 0 0 transparent, -2px 2px 3px #000;
 }
 .introsummary3 {
 font-family: 'Nobile', sans-serif;
- font-size: 18px;
+ font-size: 15px;
  font-weight:400;
 color:#fff;
-line-height:162%;
+line-height:180%;
 text-align:center;
 text-shadow:0 0 0 transparent, -2px 2px 3px #000;
 }
@@ -901,25 +899,37 @@ font-family: 'Open Sans', sans-serif;
 /*Custom Font sizes for Breakpoint sm (tablets) */
 
 @media screen and (max-width: 992px) {
-  .headline33 {margin-top:70px; margin-left:35px;text-align:center; margin-bottom:0px;font-size:20px; color:white; line-height:175%;}
-#headline30 {margin-top:0px; margin-left:30px;font-size:15px; color:#BEBEBE; text-align:left;}
+  .headline33 {margin-top:70px; margin-left:35px;text-align:center; margin-bottom:0px;font-size:20px; color:yellow; line-height:175%;}
+#headline30 {margin-top:-10px; margin-left:55px;font-size:15px; color:#ffffff; text-align:left;}
 #topline3 {color:#BEBEBE;}
+/* White Mid Navbar */
+.navbar-default  {background:#fff;border: none; top:auto;}
+.navbar-default .navbar-toggle .icon-bar { background-color: #000; height:3px;}
+.item1 { z-index:100; position: absolute; left: 28%; top: 36%;}
+#headline24 {margin-left:66px; margin-top:15px;}
+#headline27 {margin-left:44px;}
+#headline31 {margin-left:88px;margin-top:25px;}
+.introsummary { font-size:16px;}
+.slickfont1 {font-size:30px;}
 }
 
 /*Custom Font sizes for Breakpoint xs (phones) */
 
 @media screen and (max-width: 768px) {
 
-   #topline { margin-top:15px;}
-   #topline3 { color:#BEBEBE;}
-   #topline7 {color:white; }
-
-  .headline33 {margin-top:30px; margin-left:35px;text-align:left; margin-bottom:30px;font-size:18px; color:yellow; line-height:175%;}
+   #topline { margin-top:11px; font-weight:bold;}
+   #topline3 { color:#BEBEBE;font-weight:bold;}
+   #topline7 {color:white; font-weight:bold;}
+   .firstheader {font-size:22px;}
+  .headline33 {margin-top:30px; margin-left:0px;padding-left:5px; padding-right:5px;text-align:center; margin-bottom:30px;color:yellow; line-height:170%;}
   #headline30 {margin-top:10px;font-size:12px; color:yellow; text-align:left;}
-
   #logospace { margin-top:40px; margin-bottom:18px;}
-.introsummary {font-size:15px;}
-.introsummary3 {font-size:13px; text-align:left;}
+  .introsummary3 {font-size:14px; margin-left:-3px; text-align:left;}
+.item1 { z-index:100; position: absolute; left: 35%; top: 36%;}
+#headline27, #headline24 {margin-left:0px;}
+/* White Mid Navbar */
+.navbar-default  {background:#fff;border: none; top:auto;}
+.navbar-default .navbar-toggle .icon-bar { background-color: #000; height:3px;}
 
 
 }
@@ -937,6 +947,7 @@ font-family: 'Open Sans', sans-serif;
     .navbar .navbar-collapse {
         text-align: center;
     }
+.navbar-default  {background:#fff;border: none; top:auto;}
 
 }
 
