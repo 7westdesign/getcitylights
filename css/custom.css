@@ -57,19 +57,6 @@ top: auto;
 margin-bottom:0px;
 }
 
-
-
-@media (min-width: 768px) {
-  .welcometop {
-    border-radius: 0;
-  }
-}
-
-
-.container-fluid {
-background:none;
-}
-
 /* City Lights Logo  */
 #cllogo  {
 display:inline-block;
@@ -128,9 +115,8 @@ background-image: linear-gradient(to bottom, #222222 0%, #000000 100%);
 }
 
 
-
 .navbar-collapse > .navbar-nav > li > a {
-color:#2c54c3;
+color:#5b7ad0;
 }
 
 .navbar-collapse > .navbar-nav > li > a:hover {
@@ -145,7 +131,7 @@ color:yellow;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #fff;
+  color: yellow;
 }
 
 /* White Mid Navbar Li Hover Background Color*/
@@ -376,8 +362,8 @@ font-style:normal;
 float:left;
 text-align:center;
 line-height:170%;
-margin-top:32px;
-margin-left:12px;
+margin-top:55px;
+margin-left:14px;
 margin-bottom:25px;
  color:#fff;
 text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
@@ -567,8 +553,6 @@ z-index:100;
 left: 33%;
   top: 38%;
   transform: translate(-50%, -50%);
-  
-
 }
 
 .item2 {
@@ -699,9 +683,6 @@ text-decoration: none;
 .navbar-default .navbar-nav > .active > a {
   color: #777; 
 }
-
-
-
 
 .firstheader {
 text-align:center;
@@ -915,10 +896,17 @@ font-family: 'Open Sans', sans-serif;
         padding-bottom: 10px;
         
     }
-
 }
 
-/*Custom Font sizes for different Breakpoints */
+/*Custom Font sizes for Breakpoint sm (tablets) */
+
+@media screen and (max-width: 992px) {
+  .headline33 {margin-top:70px; margin-left:35px;text-align:center; margin-bottom:0px;font-size:20px; color:white; line-height:175%;}
+#headline30 {margin-top:0px; margin-left:30px;font-size:15px; color:#BEBEBE; text-align:left;}
+#topline3 {color:#BEBEBE;}
+}
+
+/*Custom Font sizes for Breakpoint xs (phones) */
 
 @media screen and (max-width: 768px) {
 
@@ -936,8 +924,20 @@ font-family: 'Open Sans', sans-serif;
 
 }
 
+/* Centering the Nav links per media query */
 
+@media (min-width: 992px) {
+  
+.navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        height:45px;
+    }
 
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
 
+}
 
 
