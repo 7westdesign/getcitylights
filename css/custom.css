@@ -110,7 +110,6 @@ background-image: linear-gradient(to bottom, #222222 0%, #000000 100%);
 /* Style the links once they are Collapsed (.in!)*/
 .navbar-collapse.in {
     overflow-y: visible;
-
 }
 
 @media (min-width: 992px) {
@@ -129,40 +128,21 @@ background-image: linear-gradient(to bottom, #222222 0%, #000000 100%);
 }
 
 
-#midnav.in {
-  overflow-y: visible;
-margin-left:0px;
-margin-top: 200px;
-padding-top:5px;
 
-}
-
-.navbar-nav {
-margin-left:0;
-}
-
-
-#midnav.in > ul.navbar-nav {
-margin-top: -205px;
-margin-left:-20px
-}
-
-#midnav > ul.navbar-nav > li > a {
+.navbar-collapse > .navbar-nav > li > a {
 color:#2c54c3;
 }
 
-#midnav > ul.navbar-nav > li > a:hover {
+.navbar-collapse > .navbar-nav > li > a:hover {
 color:yellow;
 }
 
-#midnav.in > ul.navbar-nav > li > a {
-color:#333;
+.navbar-collapse.in > ul.navbar-nav > li > a {
+color:#2c54c3;
 }
-
-#midnav.in > ul.navbar-nav > li > a:hover {
-color:#fff;
+.navbar-collapse.in > ul.navbar-nav > li > a:hover {
+color:yellow;
 }
-
 
 .navbar-default .navbar-nav > li > a:hover {
   color: #fff;
@@ -798,15 +778,25 @@ height:100px; position:fixed; width:1000px; top:0; margin: auto; display: block;
 }
 
 .introsummary {
+text-indent:25px;
 font-family: 'Nobile', sans-serif;
- font-size: 15px;
+ font-size: 18px;
  font-weight:400;
 color:#fff;
-line-height:160%;
+line-height:162%;
 text-align:center;
 text-shadow:0 0 0 transparent, -2px 2px 3px #000;
 }
 .introsummary2 {
+font-family: 'Nobile', sans-serif;
+ font-size: 18px;
+ font-weight:400;
+color:#fff;
+line-height:162%;
+text-align:center;
+text-shadow:0 0 0 transparent, -2px 2px 3px #000;
+}
+.introsummary3 {
 font-family: 'Nobile', sans-serif;
  font-size: 18px;
  font-weight:400;
@@ -933,13 +923,15 @@ font-family: 'Open Sans', sans-serif;
 @media screen and (max-width: 768px) {
 
    #topline { margin-top:15px;}
+   #topline3 { color:#BEBEBE;}
+   #topline7 {color:white; }
 
-  .headline33 {margin-top:30px; margin-left:35px;text-align:left; margin-bottom:30px;font-size:17px; color:yellow; line-height:175%;}
+  .headline33 {margin-top:30px; margin-left:35px;text-align:left; margin-bottom:30px;font-size:18px; color:yellow; line-height:175%;}
   #headline30 {margin-top:10px;font-size:12px; color:yellow; text-align:left;}
 
   #logospace { margin-top:40px; margin-bottom:18px;}
-
-
+.introsummary {font-size:15px;}
+.introsummary3 {font-size:13px; text-align:left;}
 
 
 }
