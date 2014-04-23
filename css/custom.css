@@ -5,6 +5,7 @@
 @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,800,900);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
 @import url(http://fonts.googleapis.com/css?family=Nobile:400,700);
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
 
 * { margin: 0; padding: 0; }
 
@@ -69,29 +70,6 @@ margin-bottom:7px;
 
 }
 
-
-/* White Mid Navbar */
-.navbar-default  {
- /* IE10 Consumer Preview */ 
-background-image: -ms-linear-gradient(top, #222222 0%, #000000 100%);
-
-/* Mozilla Firefox */ 
-background-image: -moz-linear-gradient(top, #222222 0%, #000000 100%);
-
-/* Opera */ 
-background-image: -o-linear-gradient(top, #222222 0%, #000000 100%);
-
-/* Webkit (Safari/Chrome 10) */ 
-background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #222222), color-stop(1, #000000));
-
-/* Webkit (Chrome 11+) */ 
-background-image: -webkit-linear-gradient(top, #222222 0%, #000000 100%);
-
-/* W3C Markup, IE10 Release Preview */ 
-background-image: linear-gradient(to bottom, #222222 0%, #000000 100%);
-  border: none;
-  top:auto;
-}
 
 
 /* Style the links once they are Collapsed (.in!)*/
@@ -365,7 +343,7 @@ margin-top:55px;
 margin-left:14px;
 margin-bottom:25px;
  color:#fff;
-text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
+text-shadow:0 0 0 transparent, -2px 2px 3px #111;
 
 }
 
@@ -457,6 +435,7 @@ margin-left:0px;
 width: 55px;
 height:55px;
 padding-bottom:0px;
+clear:none;
 }
 
 #alogo4  {
@@ -467,6 +446,7 @@ margin-left:15px;
 width: 50px;
 height:55px;
 padding-bottom:0px;
+clear:none;
 }
 
 #angy {
@@ -476,6 +456,7 @@ height:55px;
 margin-top:2px;
 margin-left:15px;
 float:left;
+clear:none;
 
 }
 
@@ -737,6 +718,20 @@ line-height:140%;
 text-shadow:0 0 0 transparent, -2px 2px 3px #000;
 }
 
+.officeex {
+text-align:left;
+color:#fff;
+margin-bottom:35px;
+font-weight:600;
+font-family: 'Oleo Script', 'cursive';
+font-size:28px;
+line-height:140%;
+text-shadow:0 0 0 transparent, -2px 2px 3px #000;
+}
+
+
+
+
 .offermain {
 margin-top:10px;
 margin-bottom:50px;
@@ -777,11 +772,10 @@ text-shadow:0 0 0 transparent, -2px 2px 3px #000;
 }
 .introsummary3 {
 font-family: 'Nobile', sans-serif;
- font-size: 15px;
+ font-size: 14px;
  font-weight:400;
 color:#fff;
 line-height:180%;
-text-align:center;
 text-shadow:0 0 0 transparent, -2px 2px 3px #000;
 }
 
@@ -898,7 +892,7 @@ font-family: 'Open Sans', sans-serif;
 
 /*Custom Font sizes for Breakpoint sm (tablets) */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .headline33 {margin-top:70px; margin-left:35px;text-align:center; margin-bottom:0px;font-size:20px; color:yellow; line-height:175%;}
 #headline30 {margin-top:-10px; margin-left:55px;font-size:15px; color:#ffffff; text-align:left;}
 #topline3 {color:#BEBEBE;}
@@ -908,14 +902,15 @@ font-family: 'Open Sans', sans-serif;
 .item1 { z-index:100; position: absolute; left: 28%; top: 36%;}
 #headline24 {margin-left:66px; margin-top:15px;}
 #headline27 {margin-left:44px;}
-#headline31 {margin-left:88px;margin-top:25px;}
+#headline31 {margin-left:133px;margin-top:25px;font-size:18px;}
 .introsummary { font-size:16px;}
-.slickfont1 {font-size:30px;}
+.slickfont1 {font-size:33px;}
+
 }
 
 /*Custom Font sizes for Breakpoint xs (phones) */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
 
    #topline { margin-top:11px; font-weight:bold;}
    #topline3 { color:#BEBEBE;font-weight:bold;}
@@ -924,13 +919,14 @@ font-family: 'Open Sans', sans-serif;
   .headline33 {margin-top:30px; margin-left:0px;padding-left:5px; padding-right:5px;text-align:center; margin-bottom:30px;color:yellow; line-height:170%;}
   #headline30 {margin-top:10px;font-size:12px; color:yellow; text-align:left;}
   #logospace { margin-top:40px; margin-bottom:18px;}
+.introsummary { text-align:left;}
   .introsummary3 {font-size:14px; margin-left:-3px; text-align:left;}
 .item1 { z-index:100; position: absolute; left: 35%; top: 36%;}
 #headline27, #headline24 {margin-left:0px;}
 /* White Mid Navbar */
 .navbar-default  {background:#fff;border: none; top:auto;}
 .navbar-default .navbar-toggle .icon-bar { background-color: #000; height:3px;}
-
+#headline31 {margin-left:0px;margin-top:25px; font-size:19px;}
 
 }
 
@@ -948,6 +944,11 @@ font-family: 'Open Sans', sans-serif;
         text-align: center;
     }
 .navbar-default  {background:#fff;border: none; top:auto;}
+.headline33 {margin-top:70px; margin-left:44px;text-align:center; margin-bottom:0px;font-size:20px; color:yellow; line-height:175%;}
+#headline27 {margin-left:155px;}
+#headline24 {margin-left:50px;}
+#headline30 {margin-left:175px;}
+#headline31 {margin-left:17px;margin-top:73px; font-size:19px;}
 
 }
 
