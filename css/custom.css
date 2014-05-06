@@ -734,9 +734,9 @@ text-shadow:0 0 0 transparent, -2px 2px 3px #000;
 }
 
 
-a.reviewlink {text-decoration:none; color:#fefb04;}
+a.reviewlink {text-decoration:none; color:#fefb04; font-weight:bold;}
 
-
+a.reviewlink:hover {text-decoration:none; color:#1542bd; font-weight:bold;}
 
 .offermain {
 margin-top:10px;
@@ -866,6 +866,12 @@ color:#fff;
 font-family: 'Open Sans', sans-serif;
 }
 
+.thankpic {
+max-width:400px;
+margin:0 auto;
+margin-top:19px;
+}
+
 /* Adjust the custom breakpoint for tablets */
 
 @media (max-width: 998px) {
@@ -951,7 +957,7 @@ font-family: 'Open Sans', sans-serif;
     }
 .navbar-default  {background:#fff;border: none; top:auto;}
 .headline33 {margin-top:70px; margin-left:77px;text-align:center; margin-bottom:0px;font-size:22px; color:#fefb04; line-height:175%;}
-#headline27 {margin-left:155px;}
+#headline27 {margin-left:123px;}
 #headline24 {margin-left:50px;}
 #headline30 {margin-left:175px;}
 #headline31 {margin-left:17px;margin-top:73px; font-size:19px;}

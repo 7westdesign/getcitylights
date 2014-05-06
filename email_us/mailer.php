@@ -1,6 +1,6 @@
 <?php
 /* Set e-mail recipient */
-$myemail = "westaraluce@gmail.com";
+$myemail = "anthony@citylightselectric.org";
 
 /* Check all form inputs using check_input function */
 $name = check_input($_POST['inputName'], "Your Name");
@@ -15,7 +15,7 @@ show_error("Invalid e-mail address");
 }
 /* Let's prepare the message for the e-mail */
 
-$subject = "You have a new customer message from CityLightsElectric.org";
+$subject = "New message from Customer on CityLightsElectric.org";
 
 $message = "
 
@@ -25,8 +25,7 @@ Name: $name
 Email: $email
 Subject: $subject
 
-Message:
-$message
+Message: $message
 
 ";
 
@@ -34,7 +33,7 @@ $message
 mail($myemail, $subject, $message);
 
 /* Redirect visitor to the thank you page */
-header('Location: http://citylightselectric.org/index.html');
+header('Location: http://citylightselectric.org/thank-you.html');
 exit();
 
 /* Functions we used */
