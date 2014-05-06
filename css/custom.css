@@ -738,6 +738,10 @@ a.reviewlink {text-decoration:none; color:#fefb04; font-weight:bold;}
 
 a.reviewlink:hover {text-decoration:none; color:#1542bd; font-weight:bold;}
 
+.standout {color: yellow; font-weight:bold;
+
+}
+
 .offermain {
 margin-top:10px;
 margin-bottom:50px;
