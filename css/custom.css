@@ -304,14 +304,14 @@ font-family: 'Nobile', sans-serif;
  font-size: 23px;
 line-height:160%;
  font-weight:800;
-text-shadow:0 0 0 transparent, -2px 2px 3px #111;
+    text-shadow:  -1px 2px 0 #000, 1px 1px 0 #000; 
  float:left;
 font-style:normal;
 text-align:center;
 margin-left:0px;
 margin-top:55px;
 margin-bottom:5px;
- color:#fefb04;
+ color:blue;
 }
 
 
@@ -370,11 +370,9 @@ line-height:180%;
 margin-top:0px;
 margin-bottom:30px;
  color:#fff;
-text-shadow:none;
+text-shadow:0 0 0 transparent, -2px 2px 3px #003176;
 
 }
-
-
 
 #headline28 {
 font-family: 'Nobile', sans-serif;
@@ -676,6 +674,7 @@ margin-bottom:20px;
 
 .panel-title {
 font-weight:bold;
+text-align:center;
 }
 
 #officepic, #homepic {
@@ -728,7 +727,7 @@ margin-top:44px;
 margin-bottom:35px;
 font-weight:600;
 font-family: 'Oleo Script', 'cursive';
-font-size:28px;
+font-size:24px;
 line-height:140%;
 text-shadow:0 0 0 transparent, -2px 2px 3px #000;
 }
@@ -738,9 +737,7 @@ a.reviewlink {text-decoration:none; color:#fefb04; font-weight:bold;}
 
 a.reviewlink:hover {text-decoration:none; color:#1542bd; font-weight:bold;}
 
-.standout {color: yellow; font-weight:bold;
-
-}
+.standout {color: gray; font-weight:bold;}
 
 .offermain {
 margin-top:10px;
@@ -932,7 +929,7 @@ margin-top:19px;
    #topline3 { color:#BEBEBE;font-weight:bold;}
    #topline7 {color:white; font-weight:bold;}
    .firstheader {font-size:22px;}
-  .headline33 {margin-top:30px; margin-left:0px;padding-left:5px; padding-right:5px;text-align:center; margin-bottom:30px;color:yellow; line-height:170%;}
+  .headline33 {margin-top:30px; margin-left:0px;padding-left:5px; padding-right:5px;text-align:center; margin-bottom:30px; line-height:170%;}
   #headline30 {margin-top:10px;font-size:12px; color:yellow; text-align:left;}
   #logospace { margin-top:40px; margin-bottom:18px;}
 .introsummary { text-align:left;}
@@ -960,7 +957,7 @@ margin-top:19px;
         text-align: center;
     }
 .navbar-default  {background:#fff;border: none; top:auto;}
-.headline33 {margin-top:70px; margin-left:77px;text-align:center; margin-bottom:0px;font-size:22px; color:#fefb04; line-height:175%;}
+.headline33 {margin-top:70px; margin-left:77px;text-align:center; margin-bottom:0px;font-size:22px; color:#ffff32; line-height:175%;}
 #headline27 {margin-left:123px;}
 #headline24 {margin-left:50px;}
 #headline30 {margin-left:175px;}

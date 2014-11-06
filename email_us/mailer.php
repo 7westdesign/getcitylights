@@ -15,16 +15,15 @@ show_error("Invalid e-mail address");
 }
 /* Let's prepare the message for the e-mail */
 
-$subject = "New message from Customer on CityLightsElectric.org";
+$subject = "New message from Customer on CityLightsElectric.org!";
 
 $message = "
 
-A customer has sent you a message from CityLightsElectric.org:
+A customer has sent you a message from CityLigtsElectric.org!
 
 Name: $name
 Email: $email
 Subject: $subject
-
 Message: $message
 
 ";
