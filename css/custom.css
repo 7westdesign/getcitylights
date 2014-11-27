@@ -23,9 +23,9 @@ white-space: pre-wrap;      /* CSS3 */
    white-space: -pre-wrap;     /* Opera <7 */   
    white-space: -o-pre-wrap;   /* Opera 7 */    
    word-wrap: break-word;
-
 }
 
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 img-responsive {
 width:auto; 
@@ -686,10 +686,22 @@ margin-top:55px;
 text-align:center;
 color:#fff;
 font-weight:bold;
-line-height:200%;
+line-height:144%;
 font-weight:800;
 font-family: 'Nobile', sans-serif;
 font-size:27px;
+text-shadow:0 0 0 transparent, -2px 2px 3px #000;
+}
+
+.locheader {
+text-align:center;
+color:yellow;
+margin-bottom:22px;
+font-weight:bold;
+line-height:144%;
+font-weight:800;
+font-family: 'Nobile', sans-serif;
+font-size:20px;
 text-shadow:0 0 0 transparent, -2px 2px 3px #000;
 }
 
