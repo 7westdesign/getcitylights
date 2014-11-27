@@ -8,6 +8,7 @@ $email = check_input($_POST['inputEmail'], "Your E-mail Address");
 $subject = check_input($_POST['inputSubject'], "Message Subject");
 $message = check_input($_POST['inputMessage'], "Your Message");
 
+
 /* If e-mail is not valid show error message */
 if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
 {
@@ -27,9 +28,11 @@ Subject: $subject
 Message: $message
 
 ";
+$from = 'sevenwestdesign@p3plcpnl0386.prod.phx3.secureserver.net'; // a valid address on your domain
+$headers = "From: $from\r\nReply-to: $email";
 
 /* Send the message using mail() function */
-mail($myemail, $subject, $message);
+mail($myemail, $subject, $message, $headers);
 
 /* Redirect visitor to the thank you page */
 header('Location: http://citylightselectric.org/thank-you.html');
