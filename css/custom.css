@@ -25,6 +25,26 @@ white-space: pre-wrap;      /* CSS3 */
    word-wrap: break-word;
 }
 
+.fb-like-box {
+position:relative;
+padding:20px;
+float:left;
+}
+
+#company_reviews{
+background:none;
+margin-top:9px;
+}
+
+
+#yelpwidget {
+padding:20px;
+position:relative;
+float:left;
+
+color:#fff;
+}
+
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 img-responsive {
