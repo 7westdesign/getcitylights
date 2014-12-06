@@ -35,7 +35,7 @@ $headers = "From: $from\r\nReply-to: $email";
 mail($myemail, $subject, $message, $headers);
 
 /* Redirect visitor to the thank you page */
-header('Location: http://citylightselectric.org/thank-you.html');
+header('Location: http://citylightselectric.org/thank-you');
 exit();
 
 /* Functions we used */
