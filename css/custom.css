@@ -37,6 +37,11 @@ margin-top:9px;
 }
 
 
+@media (min-width: 1170px) {
+.g-recaptcha { margin-left:130px; }
+}
+
+
 #yelpwidget {
 padding:20px;
 position:relative;
